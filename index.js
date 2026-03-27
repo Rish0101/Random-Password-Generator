@@ -106,11 +106,8 @@ function generatePassword() {
     let randPass1 = Math.floor(Math.random() * characters.length);
     let randPass2 = Math.floor(Math.random() * characters.length);
 
-    console.log(randPass1);
     pass1 += characters[randPass1];
     pass2 += characters[randPass2];
-
-    console.log(pass1);
   }
   return [(passwordOne.textContent = pass1), (passwordTwo.textContent = pass2)];
 }
