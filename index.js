@@ -97,8 +97,6 @@ let pass1 = "";
 let pass2 = "";
 
 function generatePassword() {
-  passwordOne = "";
-  passwordOne = document.getElementById("pass1");
   pass1 = "";
   pass2 = "";
 
